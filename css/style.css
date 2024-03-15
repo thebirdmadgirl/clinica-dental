@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family:Tahoma;
+}
+/* header */
+header{
+    width:100%;
+    height:70px;
+    position: fixed;
+    z-index:1000000000000000;
+    top:0;
+    left:0;
+}
+.container{
+    width:80%;
+    margin:auto;
+}
+
+.logo img{
+    float: left;
+    width: 80px;
+}
+.botonera{
+    float: right;
+}
+.botonera ul{
+    display: flex; 
+}
+.botonera li{
+    list-style:none ;
+}
+.botonera a{
+    text-decoration:none ;
+    color:white;
+    display: block;
+    padding:20px ;
+    height:70px ;
+}
+
+/* banner */
+.banner{
+    position: relative;
+    background: url(../img/banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width:100% ;
+    min-height:100vh ;
+}
+.overlay{
+    background-color:rgba(82, 164, 209, 0.546);
+    width:100% ;
+    min-height:100vh ;
+}
+.cont-banner{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:white;
+    width: 70%;
+}
+.cont-banner h2{
+    font-weight: 500;
+    font-size: 28px;
+}
+.cont-banner p{
+    font-size: 23px;
+}
+
+/* parte 2 */
+.parte2{
+    background-color: white;
+    padding: 40px;
+}
+.parte2-cont{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+.parte2-cont h2{
+    color: rgb(18, 51, 126);
+}
+.parte2-cont p {
+    text-align: justify;
+    line-height: 25px;
+}
+.parte2-cont img{
+    border-radius: 15px 15px 0 0;
+    transition: 0.5s cubic-bezier(.47,1.64,.41,.8);
+}
+.card{
+    width: 460px;
+    box-shadow: 0 30px 60px #8a959e50;
+    text-align: left;
+}
+.white{
+    padding: 20px;
+    border-radius: 40px;
+    border-collapse: separate;
+    overflow: hidden;
+}
+.parte2-cont img:hover{
+    filter: brightness(1.06);
+    transform: scale(1.020);
+}
+.parte2-cont hr{
+    border-top: 3px solid rgb(0, 195, 255);
+    width: 30%;
+    margin: 10px auto;
+}
+
+/* parte 3 parallax */
+.parte3{
+    background: url(../img/familia.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding:40px 0px;
+}
+.parte3-cont{
+    text-align: center;
+    width: 80%;
+    margin: 100px auto;
+    background-color: rgba(0, 0, 0, 0.489);
+    color: white;
+    padding: 20px;
+}
+
+/* parte 4 */
+.parte4{
+    padding: 40px;
+    width: 100%;
+}
+.parte4-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 95%;
+    margin: auto;
+}
+.texto{
+    width: 40%;
+}
+.texto h2{
+    color: rgb(18, 51, 126);
+}
+.texto hr{
+    border-top: 3px solid rgb(0, 195, 255);
+    width: 35%;
+    margin: 15px 0;
+}
+.texto p{
+    font-size: 20px;
+    line-height: 26px;
+}
+.galeria-slider{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.galeria-slider article{
+    margin: auto;
+}
+.galeria-slider img{
+    min-width: 430px;
+    max-width: 430px;
+    min-height: 300px;
+    max-height: 300px;
+    object-fit: cover;
+    margin: 0 10px;
+    border-radius: 15px;
+}
+.galeria-slider button{
+    background: black;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50%;
+    border:0 none;
+}
+.galeria-slider button:hover{
+    background-color: rgb(80, 88, 110);
+}
+
+/* parte 5 */
+.parte5{
+    padding: 40px;
+    background-color: rgb(229, 240, 250);
+}
+.parte5-cont{
+    width: 80%;
+    margin: auto;
+}
+.parte5-cont h1{
+    color: rgb(18, 51, 126);
+    margin: auto;
+    text-align: center;
+}
+.parte5-cont hr{
+    border-top: 3px solid rgb(0, 195, 255);
+    width: 35%;
+    margin: 10px auto;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.texto5 i{
+    color: rgb(36, 58, 140);
+    font-size: 20px;
+}
+.texto5 li{
+    margin: 10px 0;
+}
+/* forum */
+.forum{
+    padding: 20px;
+    background-color: rgb(78, 173, 205);
+    width: 45%;
+    color: white;
+    border-radius: 10px;
+}
+.forum h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.forum input, textarea{
+    width: 100%;
+    max-width: 100%;
+    max-height: 250px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 3px;
+}
+.forum input{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+/* parte 6 */
+.parte6-cont h2{
+    margin: 25px auto;
+    text-align: center;
+}
+.parte6-cont iframe{
+    width: 100%;
+}
+
+/* footer */
+footer{
+    padding: 40px;
+    background-color: rgb(29, 29, 95);
+    color: white;
+}
+.footer-cont{
+    margin: auto;
+    width: 75%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.seccion{
+    width: 27%;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+.seccion hr{
+    border-top: 3px solid rgb(0, 195, 255);
+    border-style: solid;
+    margin: 15px 0;
+}
+#seccion1{
+    text-align: center;
+}

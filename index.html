@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/preloader.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- fin del preloader -->
+    <div id="inicio"></div>
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <!-- menu hamburguesa -->
+            <div id="menu" onclick="llamar()">
+            <i class="fa-solid fa-bars"></i>    
+            </div>
+            <!-- fin del menu hamburguesa -->
+            <nav class="botonera" id="botonera">
+                <ul>
+                    <li><a href="#inicio" id="active">INICIO</a></li>
+                    <li><a href="#nosotros">NOSOTROS</a></li>
+                    <li><a href="#galeria">GALERIA</a></li>
+                    <li><a href="#contactos">CONTACTOS</a></li>
+                    <li><a href="#contactos"><i class="fa-solid fa-user"></i> LOGIN</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+
+    <div class="banner">
+    <div class="overlay">
+        <div class="cont-banner">
+            <h2>Clínica Dental Centro</h2>
+            <br>
+            <p>Más de 10 años de experiencia, ofrecemos a nuestros pacientes confianza, tratamientos modernos y especializados.</p>
+        </div>
+    </div>
+    </div>
+
+    <div class="parte2">
+        <div class="parte2-cont">
+            <h2>CLÍNICA DENTAL CENTRO</h2>
+            <hr>
+            <br>
+            <p>Somos un equipo de cirujanos dentistas especializados con más de 10 años de experiencia, ofrecemos a nuestros pacientes confianza, tratamientos modernos y especializados en todas nuestras áreas para el cuidado de su salud dental y estética.Nuestros clientes son para nosotros lo mas importante que existe en el mundo.</p>
+            <br>
+            <div class="card">
+            <img src="img/cuidados.png" width="460px">    
+            <div class="white">
+                <h3>Nuestros cuidados</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, labore?</p>
+            </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="parte3">
+        <div class="parte3-cont">
+            <h2>Ven y te atenderémos con lo mejor</h2>
+            <p>Especialidad dedicada a devolver la función masticatoria, restaurar y/o devolver la pérdida de dientes a través del uso de prótesis fija, removiblee e implantes para lo mejor de tu Dentadura en el mundo.</p>
+        </div>
+    </div>
+
+    <div class="parte4">
+        <div class="parte4-cont">
+            <div class="texto">
+                <h2>Lo mejor para las sonrisas de nuestros clientes</h2>
+                <hr>
+                <p>Ofrecer servicios de excelencia: Para lograr esto hemos diseñado un modelo de servicio diferenciado, basado en una cultura de tratamientos perfectos, disciplina, profesionalismo y diagnósticos acertados, logrando así la total satisfacción de nuestros pacientes.</p>
+            </div>
+            <div class="galeria-slider">
+                <article style="display: flex;align-items: center;">
+                    <button onclick="atras()"><i class="fa-solid fa-caret-left"></i></i></button>
+                    <img src="img/img01.png" alt="" id="img">
+                    <button onclick="adelante()"><i class="fa-solid fa-caret-right"></i></i></button>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <div class="parte5">
+        <div class="parte5-cont">
+            <h1>CONTÁCTANOS</h1>
+            <hr>
+            <div class="content">
+                <div class="texto5">
+                    <h2>UBÍCANOS EN:</h2>
+                    <ul>
+                        <ul class="fa-ul">
+                            <li><span class="fa-li"><i class="fa-solid fa-tooth"></i></span>Calle Zero frente a la Universiad Miguel Pallin.</li>
+                            <li><span class="fa-li"><i class="fa-solid fa-tooth"></i></span>Telefono:(01)632-4578</li>
+                            <li><span class="fa-li"><i class="fa-solid fa-tooth"></i></span>Celular: 961-548-789</li>
+                            <li><span class="fa-li"><i class="fa-solid fa-tooth"></i></span>Whatsapp: 961-548-789</li>
+                            <li><span class="fa-li"><i class="fa-solid fa-tooth"></i></span>Info: miguel_pallin@hotmail.com</li>
+                          </ul>
+                    </ul>
+                </div>
+                <div class="forum">
+                    <h2>Déjanos un mensaje</h2>
+                    <p>Apellidos y Nombres</p>
+                    <input type="text" placeholder="Ingresa tus nombres completos">
+                    <p>Correo Electrónico</p>
+                    <input type="email" name="" id="" placeholder="Ingresa tu email">
+                    <p>Celular</p>
+                    <input type="tel" name="" id="" placeholder="Ingresa tu celular">
+                    <p>Comentarios</p>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <br>
+                    <input type="submit" value="Enviar">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="parte6">
+        <div class="parte6-cont">
+            <h2>NUESTRO MAPA</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1555953.3677298946!2d-74.307571!3d40.387326!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3cde3dd9d604d%3A0xb14cd13e5bb0b9ca!2sN%C3%9CVA%20Smile!5e0!3m2!1ses-419!2spe!4v1710012236115!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/d058e22274.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+    <footer>
+        <div class="footer-cont">
+            <div id="seccion1" class="seccion">
+                <img src="img/logo.png" width="100px">
+                <h3>Dental Dent 2021</h3>
+                <h4>SÍGUENOS EN:</h4>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+            <div id="seccion2" class="seccion">
+                <h3>HORARIO DE ATENCIÓN</h3>
+                <hr>
+                <p>Todos los Dias - 9:00 am - 9:00pm <br>Lunes a Viernes - 9:00 am - 9:00pm <br>Sábados y Domingos - 9:00 am - 5:00pm</p>
+            </div>
+            <div id="seccion3" class="seccion">
+                <h3>CONTÁCTANOS EN</h3>
+                <hr>
+                <ul>
+                    <li>Los Portales frente a la Universidad Universo 2021, Cuadra 15 de la Avenida Rosales.</li>
+                    <li>Celular: 961 456 785 / 987 456 321</li>
+                    <li>Correo: academiatriunfadores@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <div class="footer2">
+        <p style="text-align: center; padding: 20px; background-color: rgb(62, 62, 116); color: white;">Creado por Kiara Lévano</p>
+    </div>
+</body>
+</html>
