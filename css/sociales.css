@@ -1,0 +1,42 @@
+#social{
+    position: fixed;
+    z-index: 1000000;
+    top: 230px;
+    left: 0;
+}
+#facebook a{
+    padding: 20px 20px;
+    background: rgb(35, 90, 201);
+    color: white;
+    transition: 0.5s cubic-bezier(.47,1.64,.41,.8);
+    text-decoration: none;
+}
+#facebook a:hover{
+    padding: 20px 30px;
+    background: black;
+    transition: 0.5s cubic-bezier(.47,1.64,.41,.8);
+}
+#twitter a{
+    padding: 20px 20px;
+    background: rgb(76, 189, 234);
+    color: white;
+    transition: 0.5s cubic-bezier(.47,1.64,.41,.8);
+    text-decoration: none;
+}
+#twitter a:hover{
+    padding: 20px 30px;
+    background: black;
+    transition: 0.5s cubic-bezier(.47,1.64,.41,.8);
+}
+#youtube a{
+    padding: 20px 20px;
+    background: rgb(231, 19, 19);
+    color: white;
+    transition: 0.5s cubic-bezier(.47,1.64,.41,.8);
+    text-decoration: none;
+}
+#youtube a:hover{
+    padding: 20px 30px;
+    background: black;
+    transition: 0.5s cubic-bezier(.47,1.64,.41,.8);
+}
